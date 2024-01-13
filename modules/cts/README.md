@@ -10,10 +10,10 @@ For general info see the OTC website at https://open-telekom-cloud.com/en/produc
 ```
 module "cts" {
   source                = "registry.terraform.io/iits-consulting/project-factory/opentelekomcloud//modules/cts"
-  version               = "5.3.0"
+  version               = "5.7.1"
   bucket_name           = "my-bucket-for-cloud-tracing-service"
   enable_trace_analysis = true
-  expiration_days       = 180
+  cts_expiration_days   = 180
 }
 ```
 
